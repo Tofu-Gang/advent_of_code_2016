@@ -230,7 +230,7 @@ def puzzle_1() -> None:
 def puzzle_2() -> None:
     """
     --- Part Two ---
-    
+
     Then, you notice the instructions continue on the back of the Recruiting
     Document. Easter Bunny HQ is actually at the first location you visit twice.
 
