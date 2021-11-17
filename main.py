@@ -1,7 +1,7 @@
 __author__ = "Tofu Gang"
 __email__ = "tofugangsw@gmail.com"
 
-# from day_xx.day_xx import puzzle_x as puzzle
+from day_01.day_01 import puzzle_1 as puzzle
 
 """
 Santa's sleigh uses a very high-precision clock to guide its movements, and the 
@@ -18,7 +18,7 @@ first. Each puzzle grants one star. Good luck!
 
 if __name__ == "__main__":
     print("---Advent Of Code 2016---")
-    # puzzle()
+    puzzle()
     exit(0)
 
 ################################################################################
