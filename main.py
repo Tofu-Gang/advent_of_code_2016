@@ -1,7 +1,7 @@
 __author__ = "Tofu Gang"
 __email__ = "tofugangsw@gmail.com"
 
-from day_05.day_05 import puzzle_2 as puzzle
+from day_06.day_06 import puzzle_2 as puzzle
 
 """
 Santa's sleigh uses a very high-precision clock to guide its movements, and the 
