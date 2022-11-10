@@ -12,7 +12,7 @@ in the Advent calendar; the second puzzle is unlocked when you complete the
 first. Each puzzle grants one star. Good luck!
 """
 
-# from src.day_xx import puzzle
+from src.day_01 import puzzle
 
 ################################################################################
 
@@ -21,8 +21,7 @@ if __name__ == "__main__":
     Runs specified puzzles.
     """
 
-    pass
-    # puzzle.puzzle_01()
-    # puzzle.puzzle_02()
+    puzzle.puzzle_01()
+    puzzle.puzzle_02()
 
 ################################################################################
