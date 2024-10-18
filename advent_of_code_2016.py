@@ -14,7 +14,7 @@ first. Each puzzle grants one star. Good luck!
 
 from unittest import TestCase, main
 
-# from src.day_01 import puzzle as day_01
+from src.day_01 import puzzle as day_01
 
 
 ################################################################################
@@ -22,9 +22,8 @@ from unittest import TestCase, main
 class TestAdventOfCode2016(TestCase):
 
     def test_advent_of_code_2016(self):
-        pass
-        # self.assertEqual(day_01.puzzle_01(), -1)
-        # self.assertEqual(day_01.puzzle_02(), -1)
+        self.assertEqual(day_01.puzzle_01(), 242)
+        self.assertEqual(day_01.puzzle_02(), 150)
 
 ################################################################################
 
