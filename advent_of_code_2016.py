@@ -23,6 +23,7 @@ from src.day_06 import puzzle as day_06
 from src.day_07 import puzzle as day_07
 from src.day_08 import puzzle as day_08
 from src.day_09 import puzzle as day_09
+from src.day_10 import puzzle as day_10
 
 
 ################################################################################
@@ -48,6 +49,8 @@ class TestAdventOfCode2016(TestCase):
         # result of day 8 puzzle 2 is ASCII art
         self.assertEqual(day_09.puzzle_01(), 152851)
         self.assertEqual(day_09.puzzle_02(), 11797310782)
+        self.assertEqual(day_10.puzzle_01(), 118)
+        self.assertEqual(day_10.puzzle_02(), 143153)
 
 ################################################################################
 
